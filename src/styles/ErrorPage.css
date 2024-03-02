@@ -1,0 +1,10 @@
+.ErrorPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; }
+
+.errorWrapper {
+  text-align: center; }
+
+/*# sourceMappingURL=ErrorPage.css.map */
