@@ -1,9 +1,9 @@
 import {FC} from 'react';
-import '../styles/Header.scss';
+import './Header.scss';
 import { Link } from 'react-router-dom';
 
-
 const Header: FC = () => {
+
     return (
         <div className="Header">
             <ul>
