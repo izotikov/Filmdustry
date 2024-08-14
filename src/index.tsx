@@ -1,8 +1,7 @@
-import * as React from 'react'
-import * as ReactDOM from 'react-dom/client'
+import * as ReactDOM from 'react-dom/client';
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import App from './App.tsx'
-import ErrorPage from "./components/ErrorPage";
+import ErrorPage from "./components/ErrorPage/ErrorPage.tsx";
 import {privateRoutes} from "./router/routs";
 
 const router = createBrowserRouter([
