@@ -11,7 +11,6 @@ const router = createBrowserRouter([
         element: <App />,
         errorElement: <ErrorPage />,
         children: privateRoutes
-
     },
 ]);
 

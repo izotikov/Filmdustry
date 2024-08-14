@@ -2,11 +2,12 @@
   background: linear-gradient(180deg, #4d096a, #4b0c87, #550fc2);
   height: 60px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   ul {
     list-style: none;
     display: flex;
+    justify-content: space-between;
+    width: 100%;
     li {
       color: white;
       font-size: 18px;
@@ -17,5 +18,13 @@
     text-decoration: none;
     color: white;
   }
+  img {
+    width: 35px;
+    position: relative;
+    top: -2.5px;
+  }
+}
 
+#user {
+  margin-left: auto;
 }
